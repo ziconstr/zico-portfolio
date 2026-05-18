@@ -11,7 +11,7 @@ function App() {
     <div className="min-h-screen bg-white text-gray-900">
       {/* Navigation */}
       <nav className="flex justify-between items-center px-8 py-6 border-b relative">
-        <div className="font-bold text-xl">Zico</div>
+        <img src="/letter-z.png" alt="Zico logo" className="h-8 w-auto" />
 
         {/* Desktop menu */}
         <ul className="hidden md:flex gap-6">
@@ -80,9 +80,7 @@ function App() {
       {/* Hero / About */}
       <section id="about" className="bg-green-700 text-white px-8 py-20">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-10 items-start">
-          <div className="w-40 h-40 bg-gray-200 rounded shrink-0 flex items-center justify-center text-gray-500">
-            Photo
-          </div>
+<img src="/me.png" alt="Zico" className="w-40 h-40 rounded shrink-0 object-cover" />
           <div>
             <h1 className="text-3xl font-bold mb-2">{hero.name}</h1>
             <p className="text-lg mb-4">{hero.tagline}</p>
