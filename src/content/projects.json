@@ -27,7 +27,7 @@
     "title": "Project Four",
     "client": "Client D",
     "color": "bg-green-700",
-    "image": "",
+    "image": "/project1.png",
     "description": "Coming soon.",
     "link": "#"
   },
@@ -35,7 +35,7 @@
     "title": "Project Five",
     "client": "Client E",
     "color": "bg-gray-700",
-    "image": "",
+    "image": "/project3.png",
     "description": "Coming soon.",
     "link": "#"
   },
@@ -43,7 +43,7 @@
     "title": "Project Six",
     "client": "Client F",
     "color": "bg-pink-500",
-    "image": "",
+    "image": "/project2.png",
     "description": "Coming soon.",
     "link": "#"
   }
