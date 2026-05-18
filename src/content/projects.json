@@ -1,0 +1,8 @@
+[
+  { "title": "Project One", "client": "Client A", "color": "bg-red-500", "description": "A short description of project one.", "link": "#" },
+  { "title": "Project Two", "client": "Client B", "color": "bg-yellow-500", "description": "A short description of project two.", "link": "#" },
+  { "title": "Project Three", "client": "Client C", "color": "bg-blue-700", "description": "A short description of project three.", "link": "#" },
+  { "title": "Project Four", "client": "Client D", "color": "bg-green-700", "description": "A short description of project four.", "link": "#" },
+  { "title": "Project Five", "client": "Client E", "color": "bg-gray-700", "description": "A short description of project five.", "link": "#" },
+  { "title": "Project Six", "client": "Client F", "color": "bg-pink-500", "description": "A short description of project six.", "link": "#" }
+]

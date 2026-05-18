@@ -1,0 +1,8 @@
+[
+  { "name": "HTML", "description": "HyperText Markup Language" },
+  { "name": "CSS", "description": "Cascading Style Sheets" },
+  { "name": "JavaScript", "description": "A high-level, multi-paradigm programming language" },
+  { "name": "React", "description": "A JavaScript library for building user interfaces" },
+  { "name": "Tailwind", "description": "A utility-first CSS framework" },
+  { "name": "Git", "description": "Distributed version control system" }
+]
