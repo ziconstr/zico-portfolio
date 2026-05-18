@@ -116,12 +116,16 @@ function App() {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {projects.map((p, i) => (
-              <a key={i} href={p.link} className="block">
-                <div className={`${p.color} aspect-square mb-3`}></div>
-                <h3 className="font-bold">{p.title}</h3>
-                <p className="text-sm text-gray-600">{p.client}</p>
-              </a>
-            ))}
+  <a key={i} href={p.link} target="_blank" rel="noopener noreferrer" className="block">
+    {p.image ? (
+      <img src={p.image} alt={p.title} className="aspect-square w-full object-cover mb-3 rounded" />
+    ) : (
+      <div className={`${p.color} aspect-square mb-3 rounded`}></div>
+    )}
+    <h3 className="font-bold">{p.title}</h3>
+    <p className="text-sm text-gray-600">{p.client}</p>
+  </a>
+))}
           </div>
         </div>
       </section>

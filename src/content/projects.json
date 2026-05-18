@@ -1,8 +1,50 @@
 [
-  { "title": "Project One", "client": "Client A", "color": "bg-red-500", "description": "A short description of project one.", "link": "#" },
-  { "title": "Project Two", "client": "Client B", "color": "bg-yellow-500", "description": "A short description of project two.", "link": "#" },
-  { "title": "Project Three", "client": "Client C", "color": "bg-blue-700", "description": "A short description of project three.", "link": "#" },
-  { "title": "Project Four", "client": "Client D", "color": "bg-green-700", "description": "A short description of project four.", "link": "#" },
-  { "title": "Project Five", "client": "Client E", "color": "bg-gray-700", "description": "A short description of project five.", "link": "#" },
-  { "title": "Project Six", "client": "Client F", "color": "bg-pink-500", "description": "A short description of project six.", "link": "#" }
+  {
+    "title": "[Real Project 1 Name]",
+    "client": "[Client or 'Personal']",
+    "color": "bg-red-500",
+    "image": "/project1.png",
+    "description": "[online shop]",
+    "link": "https://zico-jsfw.netlify.app/"
+  },
+  {
+    "title": "[Real Project 2 Name]",
+    "client": "[Client or 'Personal']",
+    "color": "bg-yellow-500",
+    "image": "/project2.png",
+    "description": "[Action House]",
+    "link": "https://sp2resit.netlify.app/"
+  },
+  {
+    "title": "[Real Project 3 Name]",
+    "client": "[Client or 'Personal']",
+    "color": "bg-blue-700",
+    "image": "/project3.png",
+    "description": "[online arcade]",
+    "link": "https://js2resit.netlify.app/"
+  },
+  {
+    "title": "Project Four",
+    "client": "Client D",
+    "color": "bg-green-700",
+    "image": "",
+    "description": "Coming soon.",
+    "link": "#"
+  },
+  {
+    "title": "Project Five",
+    "client": "Client E",
+    "color": "bg-gray-700",
+    "image": "",
+    "description": "Coming soon.",
+    "link": "#"
+  },
+  {
+    "title": "Project Six",
+    "client": "Client F",
+    "color": "bg-pink-500",
+    "image": "",
+    "description": "Coming soon.",
+    "link": "#"
+  }
 ]
