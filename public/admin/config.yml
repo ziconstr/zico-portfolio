@@ -1,0 +1,60 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "hero"
+    label: "Hero"
+    files:
+      - file: "src/content/hero.json"
+        label: "Hero Content"
+        name: "hero"
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Bio", name: "bio", widget: "text" }
+
+  - name: "contact"
+    label: "Contact"
+    files:
+      - file: "src/content/contact.json"
+        label: "Contact Content"
+        name: "contact"
+        fields:
+          - { label: "Heading", name: "heading", widget: "string" }
+          - { label: "Subtext", name: "subtext", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+
+  - name: "skills"
+    label: "Skills"
+    files:
+      - file: "src/content/skills.json"
+        label: "Skills List"
+        name: "skills"
+        fields:
+          - label: "Skills"
+            name: "skills"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+
+  - name: "projects"
+    label: "Projects"
+    files:
+      - file: "src/content/projects.json"
+        label: "Projects List"
+        name: "projects"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Client", name: "client", widget: "string" }
+              - { label: "Color", name: "color", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+              - { label: "Link", name: "link", widget: "string" }
